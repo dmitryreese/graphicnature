@@ -1,0 +1,47 @@
+.hourly-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+    padding-bottom: 8px;
+}
+
+.hourly-title {
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.scroller {
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.hourly-list {
+  display: flex;
+}
+
+.hourly-item {
+  width: 45px;
+  min-width: 45px;
+  text-align: center;
+  margin: 0 10px;
+  padding: 10px 0 0;
+}
+
+.hourly-item:first-child {
+  margin-left: 0;
+}
+
+.hourly-item:last-child {
+  margin-right: 0;
+}
+
+.hourly-item span {
+  display: block;
+}
+
+.hourly-item span + span {
+  margin: 10px 0 0;
+}

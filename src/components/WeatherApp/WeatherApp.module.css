@@ -1,0 +1,25 @@
+.main {
+    display: grid;
+    min-height: 100vh;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.wrapper {
+    min-width: 320px;
+    max-width: 460px;
+    padding: 10px;
+}
+
+.init-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.init-text {
+    margin-top: 12px;
+}

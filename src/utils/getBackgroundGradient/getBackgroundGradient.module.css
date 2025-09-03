@@ -1,0 +1,15 @@
+.morning {
+    background: linear-gradient(to bottom, #81C5E5, #DC927F);
+}
+
+.day {
+    background: linear-gradient(to bottom, #4982AD, #90BBD8 50%);
+}
+
+.evening {
+    background: linear-gradient(to bottom, #6F6D8C, #BC615A 50%);
+}
+
+.night {
+    background: linear-gradient(to bottom, #011E33, #3D3551 80%);
+}
