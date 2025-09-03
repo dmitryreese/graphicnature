@@ -1,0 +1,1 @@
+export const DAILY_OFFLINE_DATAKEY = 'DAILY';

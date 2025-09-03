@@ -1,0 +1,1 @@
+export const LOCATION_OFFLINE_DATAKEY = 'LOCATION';

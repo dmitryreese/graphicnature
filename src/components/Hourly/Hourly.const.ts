@@ -1,0 +1,1 @@
+export const HOURLY_OFFLINE_DATAKEY = 'HOURLY';
